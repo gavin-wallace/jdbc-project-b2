@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "io/loopcamp/steps",
         dryRun = false,
-        tags = "",
+        tags = "@task01 or @task02 or @task03",
         monochrome = true
         //publish = true
 )

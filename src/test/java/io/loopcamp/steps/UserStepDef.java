@@ -3,6 +3,7 @@ package io.loopcamp.steps;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.loopcamp.pages.BasePage;
 import io.loopcamp.pages.UsersPage;
 import io.loopcamp.utility.BrowserUtil;
 import io.loopcamp.utility.DB_Utility;
@@ -35,6 +36,5 @@ public class UserStepDef {
         System.out.println("Expected count: " + expCount);
         System.out.println("Actual count: " + actualCount);
         Assert.assertEquals(expCount, actualCount);
-
     }
 }
